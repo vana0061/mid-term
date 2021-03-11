@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* MY CODE STARTS HERE*/
+
+body {
+    background-color: #aad4cf;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 1024px;
+    height: 341px;
+    position: relative;
+    color: white;
+    margin: 0 auto;
+  }
+
+header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    position: absolute;
+    font-size: 400%;
+    color: white;
+    width: 100%;
+    padding-top: 200px;
+  }
+
+nav {
+    display:inline-block;
+    background: #d4e9e7;
+    width: 1004px;
+    text-align: center;
+    margin-top: 341px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0px;
+    border-left: solid black;
+    border-width: 1px;
+}
+
+nav ul li a {
+    background: #d4e9e7;
+    display:inline-block;
+    margin: 0;
+    padding:10 px;
+    width:auto;
+    text-align:center;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
+    font-weight:bold;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 225%;
+    color: black;
+    padding: 10px;
+}
+
+article {
+    width: 984px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 150%;
+}
+
+h3, h4 {
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 0px;
+    font-size: 175%;
+}
+
+article ul {
+    margin: 0;
+    padding: 10px;
+    list-style:outside;
+}
+
+.forms {
+    border: solid black 1px;
+    margin: 0 auto;
+    padding:15px 5px;
+    box-sizing: border-box;
+}
+
+.form1 input {
+    width: 100%;
+    margin:10px;
+}
+
+.message {
+    padding: 30px 1px;
+    margin: 10px;
+}
+
+.form2 {
+    margin: 10px;
+}
+
+.form3 input {
+    background: border-box;
+    border: solid black 1px;
+    padding: 6px;
+    font-size: 70%;
+    font-weight: 100;  
+}
+
+footer {
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    right: 10px;
+}
+
+.container {
+    width: 1024px;
+    background-color: #d4e9e7;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+main {
+    width: 1004px;
+    padding: 0px;
+}
+
+
+
+
+/* main width and padding codes for little space between body background and content (images/text/ etc..) 
+1004 + 10 + 10 = Effective width = 1024 px
+
+ .container {
+        width: 1024px;
+        background-color: #d4e9e7;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    
+   
+.container {
+    width: 1024px;
+    background-color: #d4e9e7;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+main {
+    width: 1004px;
+    padding: 10px;
+}
+ */
