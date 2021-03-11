@@ -100,15 +100,14 @@ nav ul li {
     display: inline-block;
     margin-left: 10px;
     padding: 0px;
-    border-left: solid black;
-    border-width: 1px;
+    border-left: 1px solid black;
 }
 
 nav ul li a {
     background: #d4e9e7;
     display:inline-block;
     margin: 0;
-    padding:10 px;
+    padding:10px;
     width:auto;
     text-align:center;
     line-height: 40px;
@@ -157,18 +156,20 @@ article ul {
 .forms {
     border: solid black 1px;
     margin: 0 auto;
-    padding:15px 5px;
+    padding:15px 10px;
     box-sizing: border-box;
 }
 
 .form1 input {
     width: 100%;
-    margin:10px;
+    margin-right:10px;
+    margin-bottom: 15px;
 }
 
 .message {
     padding: 30px 1px;
-    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 .form2 {
@@ -182,6 +183,7 @@ article ul {
     font-size: 70%;
     font-weight: 100;  
 }
+/* Why won't my copyright fricking move?? */
 
 footer {
     position: relative;
@@ -213,23 +215,5 @@ main {
 /* main width and padding codes for little space between body background and content (images/text/ etc..) 
 1004 + 10 + 10 = Effective width = 1024 px
 
- .container {
-        width: 1024px;
-        background-color: #d4e9e7;
-        margin-left: auto;
-        margin-right:auto;
-    }
-    
-   
-.container {
-    width: 1024px;
-    background-color: #d4e9e7;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-main {
-    width: 1004px;
-    padding: 10px;
-}
+ 
  */
